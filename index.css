@@ -16,12 +16,12 @@
 }
 .textgris{
   color: #9a999e;
-  font-size: 22px;
+  font-size: 20px;
   font-family: montserrat;
 }
 .textnaranja{
   color: #ec8213;
-  font-size: 22px;
+  font-size: 20px;
     font-family: montserrat;
 }
 .espaciovideo{
@@ -33,7 +33,7 @@
   height: 30px;
 }
 .txtFormulario{
-  font-family: montserrat;
+  font-family: helvetica;
   color: #9a999e;
   font-size: 16px;
 }
