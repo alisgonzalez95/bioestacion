@@ -5,3 +5,51 @@
   background-color: #ec8213;
   height: 90px;
 }
+.txtSiguenos{
+  color: white;
+}
+.contenedor{
+  margin-top: 90px;
+}
+.rowUno{
+  padding-top: 30px;
+}
+.textgris{
+  color: #9a999e;
+  font-size: 22px;
+  font-family: montserrat;
+}
+.textnaranja{
+  color: #ec8213;
+  font-size: 22px;
+    font-family: montserrat;
+}
+.espaciovideo{
+  padding-top: 30px;
+}
+.rowFranja{
+  margin-top: 25px;
+  background-color: #ec8213;
+  height: 30px;
+}
+.txtFormulario{
+  font-family: montserrat;
+  color: #9a999e;
+  font-size: 16px;
+}
+.txtNaranjaForm{
+  font-family: montserrat;
+  color: #ec8213;
+  font-size: 16px;
+}
+.caca{
+  padding-top: 5px;
+}
+.txtCaca{
+  font-family: montserrat;
+  color: white;
+}
+.facebookIcon{
+  color: white;
+  font-size: 22px!important;
+}
