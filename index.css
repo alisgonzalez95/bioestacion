@@ -12,7 +12,7 @@
   margin-top: 90px;
 }
 .rowUno{
-  padding-top: 25px;
+  padding-top: 15px;
 }
 .textgris{
   color: #9a999e;
@@ -25,10 +25,9 @@
     font-family: montserrat;
 }
 .espaciovideo{
-  padding-top: 25px;
+  padding-top: 20px;
 }
 .rowFranja{
-  margin-top: 25px;
   background-color: #ec8213;
   height: 30px;
 }
@@ -43,7 +42,7 @@
   font-size: 16px;
 }
 .caca{
-  padding-top: 5px;
+  padding-top: 15px;
 }
 .txtCaca{
   font-family: montserrat;
