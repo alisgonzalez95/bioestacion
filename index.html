@@ -1,13 +1,15 @@
 ﻿<html>
-  <head>
+<head>
     <title>Bioestacion</title>
     <meta charset="utf-8">
-    <link rel='stylesheet' href="index.css"/>
+    <link rel='stylesheet' href="index.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </head>
+    <script src="index.js"></script>
+</head>
 <body>
     <nav class="navbar navbar-inverse3 navbar-fixed-top navTomate" role="navigation">
         <!--<div class="container">-->
@@ -38,21 +40,37 @@
         </div>
         <div class="row espaciovideo">
             <div class="col-lg-1 col-md-1 col-xs-1 col-sm-1"></div>
-            <div class="col-lg-5 col-md-5 col-xs-10 col-sm-10 text-center">
+            <div class="col-lg-5 col-md-5 col-xs-10 col-sm-10 text-center rowVideo">
                 <!--&autoplay=1-->
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/kBmTCmuLwRA?ecver=1&autoplay=1" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <div class="row">
+                
+            </div>
+            <div class="col-lg-1 col-md-1 col-xs-1 col-sm-1"></div>
+            <div class="col-lg-4 col-md-4 col-xs-12">
+                <!--caca-->
+                <div class="row rowTxtDescuento" id="formularioTexto">
                     <div class="col-lg-12" style="margin-top:5px;">
                         <span class="txtFormulario">Al llenar el formulario tendrás el <span class="txtNaranjaForm">20% de descuento</span> en tu examen de diagnóstico (20 USD)</span>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-1 col-md-1 col-xs-1 col-sm-1"></div>
-            <div class="col-lg-4 col-md-4 col-xs-12">
-                <iframe height="400" allowtransparency="true" frameborder="0" scrolling="no" style="width:100%;border:none;padding-left:20px;" src="https://dreamzec.wufoo.com.mx/embed/mi6iavq0icl947/"><a href="https://dreamzec.wufoo.com/forms/mi6iavq0icl947/">Fill out my Wufoo form!</a></iframe><div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;"></div>
-            </div>
+                    <div class="card card-container" id="formularioCampos">
+                        <div class="form-signin">
+                            <span id="reauth-email" class="reauth-email"></span>
+                            <input type="text" id="txtNombre" class="form-control" placeholder="Nombre y apellido" required autofocus>
+                            <input type="email" id="txtMail" class="form-control" placeholder="Correo electrónico" required>
+                            <input type="number" id="txtTelefono" class="form-control" placeholder="Celular" required>
+                            <textarea class="form-control" rows="3" placeholder="Sus síntomas" id="txt"></textarea>
+                            <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" id="btnEnviar">Enviar</button>
+                        </div><!-- /form -->
+                    </div><!-- /card-container -->
+                    <div class="card card-container" id="gracias">
+                        <div class="alert alert-info" role="alert">Gracias por contactar a Bioestación</div>
+                    </div>
+
+                    <!--fin caca-->
+                </div>
             <div class="col-lg-1 col-md-1"></div>
         </div>
         <div class="row rowFranja navbar navbar-inverse2 navbar-fixed-bottom">
