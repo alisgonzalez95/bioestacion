@@ -1,5 +1,6 @@
 $(document).ready(function () {
     $('#gracias').hide();
+   
     $('#btnEnviar').click(function () {
         var nombre = $('#txtNombre').val();
         var mail = $('#txtMail').val();
@@ -16,7 +17,7 @@ $(document).ready(function () {
             }
             $.ajax({
                 type: 'POST',
-                url: 'http://www.resumitelo.com/api/usuarios/IngresoDatos',
+                url: 'http://localhost:58924/api/usuarios/IngresoDatos',
                 dataType: 'json',
                 data: JSON.stringify(usuarioRequest),
                 contentType: 'application/json; charset=utf-8',
