@@ -17,7 +17,7 @@ $(document).ready(function () {
             }
             $.ajax({
                 type: 'POST',
-                url: 'http://localhost:58924/api/usuarios/IngresoDatos',
+                url: 'http://www.resumitelo.com/api/usuarios/IngresoDatos',
                 dataType: 'json',
                 data: JSON.stringify(usuarioRequest),
                 contentType: 'application/json; charset=utf-8',
